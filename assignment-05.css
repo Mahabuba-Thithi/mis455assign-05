@@ -1,0 +1,144 @@
+.nav-clr{
+  background-color: darkgrey;
+}
+
+.nav-item{
+  color: black;
+}
+
+.nav-item:hover{
+  background-color: azure;
+}
+
+
+
+.course{
+  justify-content: center;
+  text-align: center;
+  margin-top:100px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration:underline;
+
+
+}
+
+.nav-clr{
+  background: #f1fff0;
+}
+.mid-container{
+  display: flex;
+  background: #f1fff0;
+}
+.trdcontainer .card-body{
+  background: #f1fff0;
+}
+.trdcontainer .card-body:hover {
+  background-color: white;
+}
+.trdcontainer .card{
+  border-radius: 8%;
+}
+
+.margin{
+margin-bottom: 140px;
+}
+
+.contact-container {
+  display: flex;
+  background-color: azure;
+  margin-top:860px;
+  box-shadow: 0 0 10px grey;
+}
+.contact-form {
+  flex: 1;
+  padding: 20px;
+}
+.contact-image {
+  flex: 1;
+  background: url('contact.avif') center/cover no-repeat;
+}
+.col-lg-6 col-md-12 contact-image{
+  width:15%;
+
+}
+@media (max-width: 768px) {
+  .contact-image,
+  .contact-form {
+    flex: 100%;
+  }
+}
+
+
+
+
+
+
+
+footer{
+			
+  position: absolute;
+  background:gray;
+  height: auto;
+  width: 100vw;
+  padding-top:20px;
+  color: #fff;
+  margin-top:70px;
+  font-family: "Merriweather", serif;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color:lightskyblue;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color:rosybrown;
+}
+
+.footer-bottom{
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+
+
+  
+
+
+
+
